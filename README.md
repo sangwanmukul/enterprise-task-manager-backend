@@ -310,7 +310,7 @@ Create `.env` file:
 ```env
 DATABASE_URL=postgresql://username:password@localhost:5432/task_manager
 
-SECRET_KEY=supersecretkey
+SECRET_KEY=<generate-a-long-random-string>
 
 ALGORITHM=HS256
 
@@ -372,7 +372,7 @@ git push origin main
 ```env
 DATABASE_URL=<railway_postgres_url>
 
-SECRET_KEY=supersecretkey
+SECRET_KEY=<generate-a-long-random-string>
 
 ALGORITHM=HS256
 
@@ -393,9 +393,9 @@ UPLOAD_DIR=uploads
 
 ```json
 {
-  "name": "Mukul",
-  "email": "mukul@gmail.com",
-  "password": "mukul",
+  "name": "Test User",
+  "email": "user@example.com",
+  "password": "your-password",
   "role": "admin"
 }
 ```
@@ -407,9 +407,9 @@ UPLOAD_DIR=uploads
 Use OAuth2 form data:
 
 ```text
-username: mukul@gmail.com
+username: user@example.com
 
-password: mukul
+password: your-password
 ```
 
 ---
@@ -504,7 +504,7 @@ Supports:
 
 ## Mukul Sangwan
 
-Third-year Engineering Student | Backend Developer | AI & Cloud Enthusiast
+Java Backend Developer at Decimal Technologies | B.Tech CSE, VIT Chennai
 
 ### GitHub Repository
 
